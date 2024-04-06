@@ -1,4 +1,4 @@
-name = "hello-ai"
+name = "ai-storytelling-worker"
 main = "src/index.ts"
 compatibility_date = "2024-04-03"
 compatibility_flags = ["nodejs_compat"]
@@ -96,3 +96,6 @@ compatibility_flags = ["nodejs_compat"]
 # [[vectorize]]
 # binding = "MY_INDEX"
 # index_name = "my-index"
+
+[ai]
+binding = "AI"
